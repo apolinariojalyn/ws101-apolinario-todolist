@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ws101-apolinario-todolist/static/css/main.528a98f5.css",
+    "main.js": "/ws101-apolinario-todolist/static/js/main.e121006c.js",
+    "index.html": "/ws101-apolinario-todolist/index.html",
+    "main.528a98f5.css.map": "/ws101-apolinario-todolist/static/css/main.528a98f5.css.map",
+    "main.e121006c.js.map": "/ws101-apolinario-todolist/static/js/main.e121006c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.528a98f5.css",
+    "static/js/main.e121006c.js"
+  ]
+}
