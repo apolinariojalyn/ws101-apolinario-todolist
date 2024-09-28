@@ -1,0 +1,134 @@
+.App {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  margin-top: none;
+  height: 800px;
+  background: url('y1.jpg') no-repeat center center/cover;
+  
+
+}
+
+@keyframes fadeInScale {
+  0% {
+    opacity: 0; 
+    transform: scale(0.8); 
+  }
+  100% {
+    opacity: 1; 
+    transform: scale(1); 
+  }
+}
+
+h1 {
+  font-size: 5em;
+  color: #000000;
+  margin-top: 0;
+  background-color: transparent;
+  height: 100px;
+  font-family: Copperplate;
+  text-align: center;
+  animation: fadeInScale 3s ease forwards; 
+}
+
+
+.todo-list {
+  display: inline-block;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.1);
+  width: 600px;
+  
+}
+
+
+.input-container {
+  display: flex;
+  margin-bottom: 20px;
+  
+}
+
+.input-field {
+  flex: 1;
+  padding: 10px;
+  font-size: 20px;
+  border: 2px solid #000000;
+  border-radius: 7px;
+  outline: none;
+}
+
+.input-field:focus {
+  border-color: #ff0000;
+}
+
+.add-button {
+  background-color: #000000;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-left: 10px;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+  background-color: #ff0000;
+}
+
+
+.task-list {
+  list-style: none;
+  padding: 10px;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.task-item.done span {
+  text-decoration: line-through;
+  color: #ff0000;
+}
+
+
+.task-actions {
+  display: flex;
+  gap: 15px;
+}
+
+.edit-button {
+  background-color: #ffc107;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.edit-button:hover {
+  background-color: #000000;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: #000000;
+}
